@@ -14,6 +14,7 @@ SOLID is an acronym which stands for the following design principles (and their 
 ### Single Responsibility Principle (SRP)
 
 > Each class has only one responsibility, and therefore has only one reason to change.
+
 An extreme example of an antipattern that violates the SRP is called a God Object. 
 A *God Object* is a huge class that tries to handle as many concerns as possible, 
 becoming a monolithic monstrosity that is very difficult to work with.
@@ -21,6 +22,7 @@ becoming a monolithic monstrosity that is very difficult to work with.
 ### Open-Closed Principle (OCP)
 
 > A type is open for extension but closed for modification.
+
 Basically, OCP states that you shouldn’t need to go back to code you’ve already written and tested and change it.
 
 ### Liskov Substitution Principle (LSP)
@@ -30,10 +32,12 @@ Basically, OCP states that you shouldn’t need to go back to code you’ve alre
 ### Interface Segregation Principle (ISP)
 
 > The idea here is to segregate parts of a complicated interface into separate interfaces so as to avoid forcing implementers to implement functionality that they do not really need.
+
 ISP suggests that you split up interfaces so that implementers can pick and choose depending on their needs.
 
 ### Dependency Inversion Principle (DIP)
 
-A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
+>A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 B. Abstractions should not depend on details. Details should depend on abstractions.
+
 Such an approach supports better configurability and testability — provided you’re using a good framework to handle these dependencies for you.
