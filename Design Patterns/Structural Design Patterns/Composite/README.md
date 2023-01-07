@@ -10,7 +10,7 @@ Another option for advertising being a container is inheriting from a container.
 Essentially, we try to give single objects and groups of objects an identical interface.
 
 
-###Array Backed Properties:
+### Array Backed Properties:
 
 The approach of using array-backed properties is as follows. First of all, we define enumeration members for all the required properties, and then proceed to create an array of the appropriate size. 
 
@@ -21,14 +21,14 @@ Now, here come the awesome parts: our calculations of sum(), average(), and max(
 Not only is the code a lot easier to write and maintain, but adding a new property to the class is as simple as adding a new enum member and a getter-setter pair; the aggregates need not change at all.
 
 
-###Grouping Graphic Objects:
+### Grouping Graphic Objects:
 
 Think of an application such as PowerPoint where you can select several different objects and drag them as one. And yet, if you were to select a single object, you can grab that object too. Same goes for rendering: you can render an individual graphic object, or you can group several shapes together and they get drawn as one group.
 
 Several rectangles and circles grouped together represent a Composite graphic object (hence the name of the Composite design pattern).
 
 
-###Neural Networks:
+### Neural Networks:
 
 Part of machine learning is the use of artificial neural networks: software constructs that attempt to mimic the way neurons work in our brains.
 
@@ -37,7 +37,7 @@ The central concept of neural networks is, of course, a neuron. A neuron can pro
 Suppose we also want to create neuron layers. A layer is quite simply a specific number of neurons grouped together.
 
 
-###Summary:
+### Summary:
 
 The Composite (aka Object Tree) design pattern allows us to provide identical interfaces for individual objects and collections of objects. This can be done either through the explicit use of interface members or, alternatively, through duck typing—for example, range-based for loops don’t require you to inherit anything, and work on the basis of the typing having suitable-looking begin()/end() members.
 
@@ -50,7 +50,7 @@ Composite is a structural design pattern that lets you compose objects into tree
 The Composite pattern provides you with two basic element types that share a common interface: simple leaves and complex containers. A container can be composed of both leaves and other containers. This lets you construct a nested recursive object structure that resembles a tree.
 
 
-###Pros and Cons:
+### Pros and Cons:
 
 +You can work with complex tree structures more conveniently: use polymorphism and recursion to your advantage.
 
