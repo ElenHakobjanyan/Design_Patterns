@@ -3,21 +3,21 @@
 - [ ] Builder
 - [ ] Factories
 - [ ] Prototype
-- [ ] Singleton
+- [x] Singleton
 
 # Structural Design Patterns
 
-- [ ] Adapter
+- [x] Adapter
 - [ ] Bridge
-- [ ] Composite
+- [x] Composite
 - [ ] Decorator
-- [ ] Facade
+- [x] Facade
 - [ ] Flyweight
 - [ ] Proxy
 
 # Behavioral Design Patterns
 
-- [ ] Chain of Responsibility
+- [x] Chain of Responsibility
 - [ ] Command
 - [ ] Interpreter
 - [ ] Iterator
